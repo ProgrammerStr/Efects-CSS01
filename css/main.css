@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Pirata One', cursive;
+  background-color: #ffffff;
+  background-image: linear-gradient(to top, #ffffff 0%, #007BC9 100%);
+  background-attachment: fixed; }
+
+.content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 100px auto 0 auto; }
+.content h1 {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
+
+.efect {
+  float: left;
+  width: 200px;
+  height: 150px;
+  border: 5px solid #ffffff;
+  overflow: hidden;
+  position: relative;
+  margin: 50px 20px 0 20px;
+  border-radius: 75px;
+  cursor: pointer; }
+.efect img, .efect div {
+  border-radius: 75px;
+  overflow: hidden; }
+.efect div {
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  padding-top: 70px;
+  border-radius: 75px;
+  text-align: center; }
+
+.efc01 div {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+  top: 0;
+  left: 0; }
+.efc01:hover div {
+  opacity: 0.8; }
+
+.efc02 img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: margin-left 2s; }
+.efc02:hover img {
+  margin-left: 200px; }
+
+/*# sourceMappingURL=main.css.map */
