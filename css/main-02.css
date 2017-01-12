@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: 'Pirata One', cursive;
+  background-color: #ffffff;
+  background-image: linear-gradient(to top, #ffffff 0%, #007BC9 100%);
+  background-attachment: fixed; }
+
+.content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 100px auto 0 auto; }
+.content h1 {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); }
+
+.efect {
+  float: left;
+  width: 200px;
+  height: 150px;
+  border: 5px solid #ffffff;
+  overflow: hidden;
+  position: relative;
+  margin: 50px 20px 0 20px;
+  border-radius: 75px;
+  cursor: pointer; }
+.efect img, .efect figcaption {
+  border-radius: 75px;
+  overflow: hidden; }
+.efect figcaption {
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  padding-top: 70px;
+  border-radius: 75px;
+  text-align: center; }
+
+.efc01 img {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+  top: 0;
+  left: 0; }
+.efc01:hover div {
+  opacity: 0.8; }
+
+.efc02 figcaption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: margin-left 1s; }
+.efc02:hover figcaption {
+  margin-left: 200px; }
+
+  .efc03 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: margin-left 1s; }
+  .efc03:hover img {
+    margin-left: 200px; }
+
+    .efc04 figcaption {
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: margin-top 1s;
+    }
+    .efc04:hover figcaption {
+      margin-top: 150px;
+    }
+
+    .efc05 figcaption{
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: margin-right 1s;
+    }
+    .efc05:hover figcaption {
+      margin-right: 200px;
+    }
+
+    .efc06 figcaption {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      transition: margin-bottom 1s;
+    }
+    .efc06:hover figcaption {
+      margin-bottom: 150px;
+    }
+
+/*# sourceMappingURL=main.css.map */
