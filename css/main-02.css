@@ -96,4 +96,13 @@ body {
       margin-bottom: 150px;
     }
 
+    .active {
+      display: block !important;
+    }
+
+    .remove {
+      display: none !important;
+    }
+
+
 /*# sourceMappingURL=main.css.map */
