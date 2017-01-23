@@ -16,7 +16,7 @@ var remAddClass = function() {
 
 $(window).on('resize', remAddClass);
 
-// var teste = function () {
+//  var teste = function () {
 // 	setTimeout($('figcaption.t1').removeClass('remove'), 3000);
 //  setTimeout($('figcaption.t1').addClass('active'), 3000);
 // 	setTimeout($('figcaption.t2').removeClass('remove'), 3000);
@@ -42,7 +42,7 @@ $(window).on('resize', remAddClass);
 // 	 			s = 0;
 // 	 			m = 0;
 // 	 			h++;
-// 	 		}
+// 	 	}
 
 // 	 		console.log("Hours:" + h + "Minutes:" + m + " Seconds: " +s);
 

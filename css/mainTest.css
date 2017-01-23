@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px; 
+}
+
+body {
+  background-color: black;
+}
+
+#blocks {
+  width: 100%;
+  max-width: 1180px;
+  min-width: 320px;
+  background-color: #cccccc;
+  margin: 0 auto; }
+#blocks .size {
+  width: 30%;
+  padding: 10px 0 10px 0;
+  display: inline-block;
+  margin: 0 1.5% 0 1.5%; }
+#blocks .size span {
+  font-size: 20px;
+  padding: 0 10px 0 0; }
+#blocks .red {
+  background-color: red; }
+#blocks .blue {
+  background-color: blue; }
+#blocks .green {
+  background-color: green; }
+
+.absolute {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: -100px 0 0 -100px;
+  top: 50%;
+  left: 50%;
+  background-color: red;
+}
+
+.absolute2 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: 0 0 0 0;
+  top: 0;
+  left: 0;
+  background-color: blue;
+}
+
+.absolute3 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: 0 0 0 0;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+.absolute4 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: -200px 0 0 0;
+  top: 100%;
+  left: 0%;
+  background-color: pink;
+}
+
+.absolute5 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin: -200px 0 0 0;
+  top: 100%;
+  right: 0;
+  background-color: orange;
+}
+
+@media screen and (max-width: 700px)
+{
+   .radius {
+      border-radius: 100px;
+    }
+}
+
+/*# sourceMappingURL=mainTest.css.map */
